@@ -4,7 +4,7 @@ Boom blast;
 public void setup() 
 {
   
-  frameRate(160);
+
   size(1000,1000);
   blast = new Boom();
   wahoo = new Spaceship();
