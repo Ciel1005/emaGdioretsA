@@ -1,11 +1,11 @@
 Spaceship wahoo;
-Star [] many = new Star[750];
+Star [] many = new Star[400];
 Boom blast;
 public void setup() 
 {
   
 
-  size(1000,1000);
+  size(500,500);
   blast = new Boom();
   wahoo = new Spaceship();
   for(int i = 0; i < many.length; i++){
