@@ -27,8 +27,8 @@ class Boom extends Spaceship{
     myCenterX = 500;
     myCenterY = 500;
 
-    myXspeed = 1;
-    myYspeed = 1;
+    myXspeed = 0;
+    myYspeed = 0;
     myPointDirection = -90;
  }
  
