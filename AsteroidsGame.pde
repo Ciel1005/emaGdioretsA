@@ -71,7 +71,6 @@ public void draw()
          blast.myXspeed = wahoo.getXspeed();
          blast.myYspeed = wahoo.getYspeed();
          blast.myPointDirection = wahoo.getDirection();
-//Make Movements smoother and not Choppy
         } else if(key == 'w'){
           wahoo.accelerate(0.5);
           blast.accelerate(0.5);
